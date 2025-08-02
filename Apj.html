@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+  <style>
+    /* Reset some default styling */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #89f7fe 0%, #80c1ec 100%);
+      color: #222;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      background: #fff;
+      padding: 50px 60px;
+      border-radius: 20px;
+      box-shadow: 0 25px 40px rgba(102, 126, 234, 0.3);
+      transition: box-shadow 0.4s ease;
+      text-align: center;
+      position: relative;
+    }
+
+    .container:hover {
+      box-shadow: 0 35px 60px rgba(102, 126, 234, 0.5);
+    }
+
+    h1 {
+      font-size: 3.5em;
+      margin: 0 0 15px;
+      background: linear-gradient(45deg, #f7971e, #ffd200, #f7971e);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: gradientShift 5s ease infinite;
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+
+    @keyframes gradientShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h3 {
+      color: #444a6d;
+      font-weight: 600;
+      margin-bottom: 40px;
+      font-style: italic;
+      letter-spacing: 1.2px;
+      text-shadow: 1px 1px 2px rgba(102, 126, 234, 0.3);
+    }
+
+    img {
+      max-width: 350px;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+      cursor: pointer;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      margin-bottom: 50px;
+      filter: drop-shadow(0 0 8px #66a6ff);
+    }
+
+    img:hover {
+      transform: scale(1.08) rotate(2deg);
+      box-shadow: 0 30px 50px rgba(102, 126, 234, 0.6);
+      filter: drop-shadow(0 0 15px #ffd200);
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.9;
+      margin-bottom: 28px;
+      color: #333a56;
+      text-align: justify;
+      padding: 0 10px;
+      position: relative;
+      transition: background-color 0.3s ease;
+      border-radius: 10px;
+    }
+
+    /* Add subtle highlight backgrounds for paragraphs in alternating colors */
+    p:nth-of-type(odd) {
+      background: #e3f2fd;
+      box-shadow: inset 5px 0 15px -5px #64b5f6;
+    }
+
+    p:nth-of-type(even) {
+      background: #fff8e1;
+      box-shadow: inset 5px 0 15px -5px #ffb74d;
+    }
+
+    /* Special styling for the quoted paragraph */
+    p:nth-of-type(3) {
+      font-style: italic;
+      border-left: 6px solid #fbc02d;
+      background: #fffde7;
+      box-shadow: none;
+      padding-left: 20px;
+      color: #5d4037;
+      font-weight: 600;
+    }
+
+    .footer {
+      background: #34495e;
+      color: #f7f9fc;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 1.25em;
+      padding: 25px 20px;
+      margin-top: 50px;
+      border-radius: 0 0 20px 20px;
+      box-shadow: inset 0 5px 10px rgba(255 255 255 / 0.1);
+      letter-spacing: 0.05em;
+      user-select: none;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 650px) {
+      .container {
+        padding: 30px 25px;
+      }
+
+      h1 {
+        font-size: 2.6em;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        margin-bottom: 30px;
+      }
+
+      img {
+        margin-bottom: 30px;
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 1em;
+        padding: 0 5px;
+      }
+
+      .footer {
+        font-size: 1.1em;
+        padding: 20px 15px;
+        border-radius: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Dr. A.P.J. Abdul Kalam</h1>
+    <h3>Missile Man of India • Visionary • Beloved President</h3>
+
+    <img src="c:\Users\AnkitaMandal\Downloads\dr-apj-abdul-kalam-portrait-600nw-2310267175.webp" alt="Dr A P J Abdul Kalam" />
+
+    <p>
+      Dr. Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist and the 11th President of India from 2002 to 2007. He was widely referred to as the "Missile Man of India" for his work on the development of ballistic missile and launch vehicle technology.
+    </p>
+
+    <p>
+      What I truly admire about Dr. Kalam is his humility and deep passion for inspiring the youth. Despite reaching the highest office in the nation, he always remained grounded, dedicating his life to science, education, and national development.
+    </p>
+
+    <p>
+      His words, like “Dream, dream, dream. Dreams transform into thoughts and thoughts result in action,” have left a lasting impact on millions. He emphasized the power of education and hard work, teaching us to strive for excellence regardless of background.
+    </p>
+
+    <p>
+      Dr. Kalam passed away doing what he loved — teaching — and he remains an enduring symbol of hope, perseverance, and service to the nation.
+    </p>
+
+    <div class="footer">
+      “You have to dream before your dreams can come true.” – Dr. A.P.J. Abdul Kalam
+    </div>
+  </div>
+</body>
+</html>
